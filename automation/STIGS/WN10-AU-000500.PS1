@@ -25,11 +25,8 @@
     PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
 #>
 
-# YOUR CODE GOES HERE
-
-
-
 #--------------------------------------------------------------------
+
 # Set MaxSize for Application Event Log (Policy key)
 # Location: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application
 # Value   : MaxSize (REG_DWORD) = 0x00008000 (32 768 KB)
