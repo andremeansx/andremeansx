@@ -14,10 +14,10 @@
     STIG-ID         : WN10-AU-000500
 
 .TESTED ON
-    Date(s) Tested  : 2025-07-15
-    Tested By       : Andre Means
+    Date(s) Tested  : 
+    Tested By       : 
     Systems Tested  : 
-    PowerShell Ver. : v1.0\PowerShell_ISE.exe
+    PowerShell Ver. : 
 
 .USAGE
     Put any usage instructions here.
