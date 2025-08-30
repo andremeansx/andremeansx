@@ -24,8 +24,7 @@ This script implements a safe, compliant subset of Windows 10 STIGs (V3R4) throu
     PowerShell Ver. : 5.1    
 
 .USAGE
-    Put any usage instructions here.
-    Example syntax:
+  
     PS C:\> .\Win10-STIG-SafeConfig.ps1 
 
 == STIGs Implemented (V3R4) ==
