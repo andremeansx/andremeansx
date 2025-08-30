@@ -6,6 +6,7 @@ This script implements a safe, compliant subset of Windows 10 STIGs (V3R4) throu
 #>
 
 .NOTES
+
     Author          : Andre Means
     LinkedIn        : linkedin.com/
     GitHub          : github.com/
