@@ -14,12 +14,13 @@ This script implements a safe, compliant subset of Windows 10 STIGs (V3R4) throu
     Version         : 1.0
     CVEs            : N/A
     Plugin IDs      : N/A
+    STIG-ID         : N/A
 
 .TESTED ON
-    Date(s) Tested  : 
+    Date(s) Tested  : 2025-08-29
     Tested By       : Andre Means
-    Systems Tested  : 
-    PowerShell Ver. : 5.1
+    System Tested   : x64-based PC Build 19045
+    PowerShell Ver. : 5.1    
 
 .USAGE
     Put any usage instructions here.
