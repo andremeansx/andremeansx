@@ -23,9 +23,27 @@ This script implements a safe, compliant subset of Windows 10 STIGs (V3R4) throu
     System Tested   : x64-based PC Build 19045
     PowerShell Ver. : 5.1    
 
+<#
 .USAGE
-  
-    PS C:\> .\Win10-STIG-SafeConfig.ps1 
+  Open PowerShell as Administrator and run:
+
+      Set-ExecutionPolicy Bypass -Scope Process -Force
+      & '.\Win10-STIG-SafeConfig.ps1 '
+
+  This will:
+    - Apply the safe subset of Windows 10 STIG (V3R4) settings
+    - Disable insecure features (e.g., SMBv1, weak WinRM auth)
+    - Enforce security policies (e.g., log sizes, RDP, lockout)
+    - Enable PowerShell logging and transcription
+
+  A CSV report of applied changes will be written to:
+    C:\Users\Public\STIG_V3R4_Results_<timestamp>.csv
+
+.NOTES
+  - Requires Administrator privileges
+  - Tested on Windows 10 (Enterprise recommended)
+  - Recommended to evaluate in a non-production environment first
+#>
 
 == STIGs Implemented (V3R4) ==
 
