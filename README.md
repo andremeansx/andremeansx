@@ -6,7 +6,7 @@ I'm passionate about cybersecurity and love tackling complex challenges through 
 ## ⚠️ Vulnerability Management Projects
 
 - **[Vulnerability Management Program Implementation](https://github.com/andremeansx/vulnerability-management-program)**
-- **[Programmatic Vulnerability Remediations (PowerShell and BASH)](#remediation-round-1-outdated-wireshark-removal)**
+- **[Programmatic Vulnerability Remediations (PowerShell and BASH)][Remediation Round 1: Outdated Wireshark Removal](#remediation-round-1-outdated-wireshark-removal)
 
 ## 🚨 Threat Hunting and Security Operations 
 
